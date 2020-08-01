@@ -1,0 +1,66 @@
+body{
+    background-image: url(images/double-bubble-dark.png);
+    text-align: center;
+    
+}
+.row{
+    width:90%;
+    margin:auto;
+    
+}
+
+body header{
+    font-size:4rem;
+    font-family: 'Press Start 2P';
+    color:#79d70f;
+    padding:3rem 0;
+    
+}
+
+#flag1,#flag2{
+    color:red;
+    visibility: hidden;
+}
+#button{
+    font-size:1.5rem;
+    margin:3rem 0;
+   padding: 0 2rem;
+   
+   
+}
+#button:hover{
+    box-shadow: inset 8px 5px 8px goldenrod,  inset -8px -5px 8px goldenrod;
+    background-color: transparent;
+    color: goldenrod;
+    
+}
+section{
+    margin:3rem 0;
+    color: white;
+}
+
+
+@media screen and (max-width:700px){
+    body{
+        padding-top: 15vh;
+    }
+    #flag1,#flag2,#ghost1,#ghost2{
+        display:none;
+    }
+    body header{
+        font-size: 3rem;
+        padding:1rem 0 1rem 0;
+    }
+    section{
+        margin:0;
+    }
+    section .row{
+        text-align: center;
+        
+
+    }
+    .img2,.img1{
+        width:100%;
+    }
+
+}
