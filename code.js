@@ -17,8 +17,8 @@ function play(){
     dice2Value=Math.floor(dice2Value)+1;
     console.log(dice2Value);
 
-    document.querySelector('.img1').src='images/dice'+dice1Value+'.png';
-    document.querySelector('.img2').src='images/dice'+dice2Value+'.png';
+    document.querySelector('.img1').src='dice'+dice1Value+'.png';
+    document.querySelector('.img2').src='dice'+dice2Value+'.png';
     
     if (dice1Value>dice2Value){
         document.querySelector('#board').textContent="Player 1 WON";
